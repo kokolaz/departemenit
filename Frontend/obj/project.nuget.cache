@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "Pn6o/FzUNT9I3EoZVJPhmAUWRtHypQnqLgVOxjCiljvvmCwV3vjeX3TooBPe2c9F+WL8EMQXcgAkXvYzkjF05w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\lazuardy.assyahid\\source\\repos\\DepartemenIT\\Frontend\\Frontend.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lazuardy.assyahid\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.24\\microsoft.windowsdesktop.app.ref.6.0.24.nupkg.sha512",
+    "C:\\Users\\lazuardy.assyahid\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.24\\microsoft.netcore.app.ref.6.0.24.nupkg.sha512",
+    "C:\\Users\\lazuardy.assyahid\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.24\\microsoft.aspnetcore.app.ref.6.0.24.nupkg.sha512",
+    "C:\\Users\\lazuardy.assyahid\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.24\\microsoft.netcore.app.host.win-x64.6.0.24.nupkg.sha512"
+  ],
+  "logs": []
+}
