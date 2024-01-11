@@ -17,7 +17,8 @@ namespace DepartemenIT.Repository
         {
             Sale sale1 = new()
             {
-                ProductId = sale.ProductId
+                ProductId = sale.ProductId,
+                Quantity = sale.Quantity
             };
             context.Sales.Add(sale1);
             var result = context.SaveChanges();

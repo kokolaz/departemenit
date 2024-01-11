@@ -87,7 +87,7 @@ namespace DepartemenIT.Controllers
             }
         }
 
-        [HttpDelete]
+        [HttpDelete("{ID}")]
         public virtual ActionResult Delete(int ID)
         {
             try

@@ -1,6 +1,7 @@
 ﻿using DepartemenIT.Models;
 using DepartemenIT.Repository;
 using DepartemenIT.Utils;
+using DepartemenIT.ViewModel;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
 
@@ -57,7 +58,7 @@ namespace DepartemenIT.Controllers
         }
 
         [HttpPost]
-        public virtual ActionResult Insert(Product product)
+        public virtual ActionResult Insert(ProductVM product)
         {
             try
             {
@@ -86,7 +87,7 @@ namespace DepartemenIT.Controllers
             }
         }
 
-        [HttpDelete]
+        [HttpDelete("{ID}")]
         public virtual ActionResult Delete(int ID)
         {
             try

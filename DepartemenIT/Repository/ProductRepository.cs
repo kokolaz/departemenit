@@ -1,6 +1,7 @@
 ﻿using DepartemenIT.Context;
 using DepartemenIT.Models;
 using DepartemenIT.Repository.Interface;
+using DepartemenIT.ViewModel;
 using Microsoft.EntityFrameworkCore;
 
 namespace DepartemenIT.Repository
@@ -12,11 +13,10 @@ namespace DepartemenIT.Repository
         {
             this.context = context;
         }
-        public int Insert(Product product)
+        public int Insert(ProductVM product)
         {
             Product product1 = new()
             {
-                ProductId = product.ProductId,
                 Name = product.Name,
                 Price = product.Price
             };
